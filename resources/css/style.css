@@ -1,0 +1,134 @@
+body {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  position: absolute;
+  width: 100%;
+  }
+
+a {
+  color: white;
+}
+
+nav span {
+  display: inline-block;
+  padding: 50px 10px;
+}
+
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+  flex-grow: 1;
+}
+
+.image-content {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  margin-top: 15px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  background: black;
+}
+
+/* Header */
+
+header {
+  background-color: black;
+  display: flex;
+  position: relative;
+  z-index: 1;
+  height: 110px;
+  width: 100%;
+  border-bottom: 1px solid white;
+  top: 0px;
+}
+
+header nav {
+  padding-right: 40px;
+}
+
+/* Body */
+
+.maincontent {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  }
+
+.locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 600px;
+  width: 1200px;
+  text-align: center;
+  position: relative;
+}
+
+.mainstory {
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  }
+
+.container {
+    width: 1000px;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+.containeritem {
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 20px;
+  }
+
+.smallimage {
+  width: 300px;
+  height: 200px;
+  }
+
+.smallimage, h4 {
+  margin-top: 10px;
+}
+
+  /* Locations */
+
+.locations, .h2 {
+  padding-top: 20px;
+}
+
+.box {
+  margin-right: 30px;
+  display: inline-grid;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  opacity: 1;
+  text-align: center;
+}
+
+
+.contact{
+  height: 200px;
+}
+
+/* Footer */
+
+footer {
+  align-self: flex-start;
+  margin-left: 20px;
+}
